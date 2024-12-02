@@ -1,0 +1,15 @@
+{
+    "type": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "username": "sa",
+    "password": "12345678",
+    "database": "Northwind",
+    "synchronize": false,
+    "logging": false,
+    "entities": ["src/entity/**/*.ts"],
+    "migrations": ["src/migration/**/*.ts"]
+   
+
+  }
+  
